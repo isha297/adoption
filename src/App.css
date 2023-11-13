@@ -52,3 +52,10 @@ max-height: 200 px;
 .PetList{
   margin-top: 6em;
 }
+
+.update-btn{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  float: left; 
+}
