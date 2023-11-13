@@ -16,9 +16,9 @@ return (
             {props.pet.description}
            
         </Card.Body>
-        <Card.Footer className="card-footer">
+        <Card.Footer className="card-footer-lay card-footer">
         <Link to={`/adoptions/${props.pet.id}`} className="btn btn-primary ml-2">Adopt Me</Link>
-        <Link to={`/details/${props.pet.id}`} className="btn btn-secondary ml-2">Details</Link>
+        <Link to={`/details/${props.pet.id}`} className="details-btn btn btn-secondary ml-2">Details</Link>
         </Card.Footer>
     </Card>
     </div>

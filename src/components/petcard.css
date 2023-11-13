@@ -1,15 +1,18 @@
 .card-img-top{
     height:400px;
    overflow-y: auto;
-   margin-top: 4em;
    background-color: #FFD3DB;
    
 }
 .card-body{
     background-color: #FFD3DB;
 }
-.card-footer{
-    margin-top: 1em;
+.card-footer-lay{
+height:4em;
+display: flex;
+flex-direction: row;
+align-items: center;
+float: left;
 }
 .card-layout{   
 box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
@@ -22,6 +25,11 @@ background-color: #FFD3DB;
     margin:20em;
     margin-top: 8em;
 }
+.details-btn{
+    margin-left:2em;
+
+}
+
 
 
 
