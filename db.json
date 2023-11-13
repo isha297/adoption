@@ -1,0 +1,116 @@
+{
+  "adoptions": [
+  ],
+  "updates": [
+  ],
+  "pets": [
+    {
+      "id": 1,
+      "name": "Max",
+      "animalType": "dog",
+      "age": 1,
+      "description": "Max is a friendly dog. He loves to play fetch and is great with kids.",
+      "adopted": false,
+      "image": "dog1.jpg",
+      "breed": "Indie",
+      "isBoy": true,
+      "isAdopted": false
+    },
+    {
+      "id": 2,
+      "name": "Blacky",
+      "animalType": "dog",
+      "age": 4,
+      "description": "Blacky is a well-behaved dog. She enjoys long walks and belly rubs.",
+      "adopted": false,
+      "image": "dog2.jpg",
+      "breed": "Indie",
+      "isBoy": false,
+      "isAdopted": false
+    },
+    {
+      "id": 3,
+      "name": "Charlie",
+      "animalType": "dog",
+      "age": 3,
+      "description": "Charlie is a cuddly dog. He loves nap time and is friendly with other dogs.",
+      "adopted": false,
+      "image": "dog3.jpg",
+      "breed": "American Bully",
+      "isBoy": true,
+      "isAdopted": false
+    },
+    {
+      "id": 4,
+      "name": "Tuffy",
+      "animalType": "dog",
+      "age": 4,
+      "description": "Tuffy is a playful dog. He's still learning commands but is eager to please.",
+      "adopted": false,
+      "image": "dog4.jpg",
+      "breed": "Pomeranian",
+      "isBoy": true,
+      "isAdopted": false
+    },
+    {
+        "id": 5,
+        "name": "Snowy",
+        "animalType": "dog",
+        "age": 3,
+        "description": "Snowy is a fun-loving dog. She is obediant and great with other pets",
+        "adopted": false,
+        "image": "dog5.jpg",
+        "breed": "Indie",
+        "isBoy": false,
+        "isAdopted": false
+      },
+    {
+      "id": 6,
+      "name": "Simba",
+      "animalType": "cat",
+      "age": 5,
+      "description": "Simba is an independent cat. He's low maintenance and likes quiet homes.",
+      "adopted": false,
+      "image": "cat1.jpg",
+      "breed": "Indie",
+      "isBoy": true,
+      "isAdopted": false
+    },
+    {
+      "id": 7,
+      "name": "Milo",
+      "animalType": "cat",
+      "age": 3,
+      "description": "Milo is a charming cat. She likes playing with toys and climbing on cat trees.",
+      "adopted": false,
+      "image": "cat2.jpg",
+      "breed": "Indie",
+      "isBoy": false,
+      "isAdopted": false
+    },
+    {
+      "id": 8,
+      "name": "Tiger",
+      "animalType": "cat",
+      "age": 2,
+      "description": "Tiger is a fun-loving cat. He's curious and loves exploring around the house.",
+      "adopted": false,
+      "image": "cat3.jpg",
+      "breed": "Minx",
+      "isBoy": true,
+      "isAdopted": false
+    },
+    {
+      "id": 9,
+      "name": "Luna and Nancy",
+      "animalType": "cat",
+      "age": 4,
+      "description": "Luna and Nancy are both sweet cats. They are affectionate and love to cuddle on the couch.",
+      "adopted": false,
+      "image": "cat4.jpg",
+      "breed": "Indie",
+      "isBoy": false,
+      "isAdopted": false
+    }
+  ]
+}

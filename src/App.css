@@ -1,0 +1,51 @@
+
+.color-nav{
+  background-color: #FFD3DB;
+}
+
+.nav-text{
+  font-family: 'Chewy',cursive;
+  color: #BD7A5F;
+  text-align: center;
+  margin-right: 8em;
+  margin-left:7em;
+}
+.card-img-top{
+width:100%;
+height: 100%;
+object-fit:cover;
+max-height: 200 px;
+}
+
+.navbar-pos{
+  z-index: 1;
+  position: fixed;
+  top:0;
+  width:100%;
+}
+
+.PetAdoptionForm{
+  margin-top:7em;
+  color: #c08b77;
+  font-weight: bold;
+  margin-left:20em;
+  margin-right:20em;
+  margin-bottom: 1em;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button-p{
+  margin: 1em;
+  background-color: #BD7A5F;
+}
+
+.UpdateForm{
+  margin-top:7em;
+  color: #c08b77;
+  font-weight: bold;
+  margin-left:20em;
+  margin-right:20em;
+  margin-bottom: 1em;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);  
+}
+
