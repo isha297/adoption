@@ -58,4 +58,5 @@ max-height: 200 px;
   flex-direction: row;
   align-items: center;
   float: left; 
+  top:50%;
 }
