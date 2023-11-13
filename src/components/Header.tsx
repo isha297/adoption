@@ -12,7 +12,7 @@ export function Header(){
                 </Navbar.Brand>
                 <Nav className="mx-auto" >
                     <h1 className="nav-text"> Find your fur-ever Friend!</h1>
-                    <Link to={`/update/`} className="btn btn-secondary">Add Adoption</Link>
+                    <span><Link to={`/update/`} className="update-btn btn btn-secondary">Add Adoption</Link></span>
                 </Nav>
             
         </Container>

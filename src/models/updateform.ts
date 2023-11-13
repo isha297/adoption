@@ -8,5 +8,5 @@ export interface updateForm{
     Gender: string,
     Owner_name: string,
     Owner_number:string,
-    location:string
+    location:string,
 }

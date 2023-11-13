@@ -19,7 +19,8 @@ const[formValues, setFormValues]=useState<updateForm>({
     Gender: '',
     Owner_name:'',
     Owner_number:'',
-    location:''
+    location:'',
+    
 
 });
 const{id}=useParams();
@@ -88,6 +89,7 @@ return(
                             name="age"
                             value={formValues.age}
                             onChange={handleChange}
+                            required 
                         />
                         
                     </Form.Group>
@@ -98,6 +100,7 @@ return(
                             name="location"
                             value={formValues.location}
                             onChange={handleChange} 
+                            required 
                         />
                     </Form.Group>
 
@@ -130,6 +133,7 @@ return(
                             name="breed"
                             value={formValues.breed}
                             onChange={handleChange} 
+                            required 
                         />
                     </Form.Group>
 
@@ -139,7 +143,8 @@ return(
                             type="text"
                             name="Gender"
                             value={formValues.Gender}
-                            onChange={handleChange} 
+                            onChange={handleChange}
+                            required 
                         />
                     </Form.Group>
                     <Form.Group controlId="Owner_name">
@@ -151,6 +156,8 @@ return(
                             onChange={handleChange} 
                         />
                     </Form.Group>
+
+                    
                     <Form.Group controlId="Owner_number">
                         <Form.Label>Contact No.</Form.Label>
                         <Form.Control 
@@ -158,6 +165,8 @@ return(
                             name="Owner_number"
                             value={formValues.Owner_number}
                             onChange={handleChange} 
+                            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                            placeholder="123-456-7890" 
                         />
                     </Form.Group>
                     

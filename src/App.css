@@ -54,9 +54,7 @@ max-height: 200 px;
 }
 
 .update-btn{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  float: left; 
-  top:50%;
+  height:3em;
+  display: table-cell;
+   vertical-align: middle;
 }
